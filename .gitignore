@@ -11,6 +11,13 @@
 Thumbs.db
 
 # =========================
+# ENVIRONMENT FILES
+# =========================
+.env
+.env.local
+.env.production
+
+# =========================
 # NODE MODULES
 # =========================
 node_modules/
@@ -23,15 +30,9 @@ build/
 .cache/
 
 # =========================
-# ENVIRONMENT FILES
-# =========================
-.env
-.env.local
-.env.production
-
-# =========================
 # LOG FILES
 # =========================
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -50,12 +51,18 @@ tmp/
 .idea/
 
 # =========================
-# UPLOADS TEMPORARY
+# INTERNAL SCHOOL DATA
 # =========================
-uploads/temporary/
+administrasi/
+absensi/
+surat/
+mbg/
+data-siswa/
+rapor/
+internal/
 
 # =========================
-# LARGE RAW FILES
+# LARGE DESIGN FILES
 # =========================
 *.psd
 *.ai
