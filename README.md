@@ -7,32 +7,52 @@ Repository dokumentasi dan penyimpanan asset digital untuk website, administrasi
 ## Struktur Folder
 
 ```bash
-UPTD-SDN1-Gabuskulon/
+📦 sdn1-gabuskulon-assets
 │
-├── public/
-│   ├── images/
-│   │   ├── logo/
-│   │   ├── kepala-sekolah/
-│   │   ├── guru-dan-staff/
-│   │   ├── siswa/
-│   │   ├── kegiatan/
-│   │   ├── fasilitas/
-│   │   ├── galeri/
-│   │   └── banner/
+├── 📁 public
 │   │
-│   └── documents-preview/
+│   ├── 📁 images
+│   │   │
+│   │   ├── 📁 logo
+│   │   │   ├── 🖼️ logo-sekolah.png
+│   │   │   └── 🖼️ favicon.png
+│   │   │
+│   │   ├── 📁 banner
+│   │   │   ├── 🖼️ banner-sekolah.webp
+│   │   │   └── 🖼️ banner-ppdb.webp
+│   │   │
+│   │   ├── 📁 fasilitas
+│   │   │   ├── 🖼️ ruang-kelas.webp
+│   │   │   ├── 🖼️ perpustakaan.webp
+│   │   │   └── 🖼️ lapangan.webp
+│   │   │
+│   │   ├── 📁 kegiatan
+│   │   │   │
+│   │   │   ├── 📁 2025
+│   │   │   ├── 📁 2026
+│   │   │   └── 📁 archive
+│   │   │
+│   │   ├── 📁 galeri
+│   │   │   ├── 🖼️ galeri-1.webp
+│   │   │   └── 🖼️ galeri-2.webp
+│   │   │
+│   │   ├── 📁 guru
+│   │   │   └── 🖼️ guru-upacara.webp
+│   │   │
+│   │   └── 📁 umum
+│   │       ├── 🖼️ halaman-sekolah.webp
+│   │       └── 🖼️ lingkungan-sekolah.webp
+│   │
+│   └── 📁 documents
+│       ├── 📄 profil-sekolah.pdf
+│       └── 📄 tata-tertib.pdf
 │
-├── uploads/
-│   ├── surat/
-│   ├── mbg/
-│   ├── administrasi/
-│   ├── absensi/
-│   └── temporary/
+├── 📁 assets
+│   │
+│   ├── 📁 icons
+│   ├── 📁 backgrounds
+│   └── 📁 templates
 │
-├── assets/
-│   ├── icons/
-│   ├── templates/
-│   └── backgrounds/
-│
-├── README.md
-└── .gitignore
+├── 📄 README.md
+├── ⚙️ .gitignore
+└── 📄 LICENSE
